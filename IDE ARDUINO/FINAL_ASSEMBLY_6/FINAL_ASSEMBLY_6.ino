@@ -730,6 +730,7 @@ void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
 
+
       if (buttonState == HIGH) {
 
   Serial.println("Iniciando o sistema..."); // Imprime na tela
@@ -914,6 +915,6 @@ void loop() {
   operacoesTASK();
   gravacaoTask();
   serialTASK();
-  //powerTASK();
+  powerTASK();
 
 }
